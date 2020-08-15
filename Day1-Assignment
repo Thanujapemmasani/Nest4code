@@ -1,0 +1,27 @@
+
+class Main {
+  public static void main(String[] args) {
+    double price1=15.5;
+    double price2=4.5;
+    double price3=30;
+    double tax_percentage=5;
+    double product_price=price1+price2+price3;
+    double finalAmount=(tax_percentage/100)*product_price;
+    System.out.println("Final Amount  "+finalAmount);
+  }
+}
+
+
+
+class Main {
+  public static void main(String[] args) {
+    float price1=70;
+    float price2=20;
+    float price3=10;
+    float taxpercentage=18;
+    float product_price=price1+price2+price3;
+    float final_amount=(taxpercentage/100)*product_price;
+    
+    System.out.println("Final Amount is"+final_amount);
+  }
+}
